@@ -528,6 +528,7 @@ img {
     align-items: center;
     gap: 16px;
     margin-top: 16px;
+    margin-right: 80px;
 }
 
 .footer-social-list-item {
@@ -550,3 +551,39 @@ img {
 .footer-social-list-link:focus {
     background-color: #31d0aa;
 }
+
+.footer-email-form {
+
+}
+
+.footer-email-form-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-input {
+    font-family: inherit;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+}
+
+.footer-email-button {
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #4d5ae5;
+}
+
