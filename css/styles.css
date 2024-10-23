@@ -555,33 +555,67 @@ img {
 .footer-email-form-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
+.footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-label {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
 .footer-input {
+    display: flex;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
     font-family: inherit;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
 }
 
+.footer-input::placeholder {
+    color: #ffffff;
+}
+
 .footer-email-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
-    font-family: var(--font-family);
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
     background-color: #4d5ae5;
+    cursor: pointer;
+    
+}
+
+.footer-btn-icon {
+    margin-left: 16px;
 }
 
 .modal-overlay {
