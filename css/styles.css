@@ -695,6 +695,10 @@ img {
 }
 
 .modal-field {
+    margin-bottom: 8px;
+}
+
+.modal-field-сomment {
     margin-bottom: 16px;
 }
 
