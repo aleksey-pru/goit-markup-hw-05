@@ -552,10 +552,6 @@ img {
     background-color: #31d0aa;
 }
 
-.footer-email-form {
-
-}
-
 .footer-email-form-text {
     font-weight: 500;
     font-size: 16px;
@@ -634,7 +630,7 @@ img {
     gap: 8px;
     margin-bottom: 15px;
     width: 360px;
-    height: 336px;
+    height: 80%;
     margin: 0 auto;
 }
 
@@ -668,15 +664,39 @@ img {
     width: 360px;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    padding-left: 38px;
+    outline: transparent;
 }
 
-.modal-input:placeholder-shown {
+.modal-checkbox-field {
+    display: flex;
+}
+
+.modal-checkbox {
+    margin-right: 8px;
+}
+
+.checkbox-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+
+.modal-private-link {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+}
+
+.modal-input:focus {
     border: 1px solid #4d5ae5;
 }
 
-.modal-input:hover,
-.modal-input:active {
-    border: 1px solid #4d5ae5;
+.modal-input:focus + .modal-icon {
+    fill: #4d5ae5
 }
 
 .icon-phone,
