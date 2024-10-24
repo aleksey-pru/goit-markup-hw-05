@@ -685,8 +685,6 @@ img {
 }
 
 .modal-form {
-    display: flex;
-    flex-direction: column;
     gap: 8px;
     margin-bottom: 15px;
     width: 360px;
@@ -809,6 +807,8 @@ input:checked + label > span{
 }
 
 .submit-btn {
+    display: block; 
+    margin: 0 auto;
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
